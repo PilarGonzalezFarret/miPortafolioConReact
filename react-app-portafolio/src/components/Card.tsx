@@ -1,17 +1,19 @@
 /* Interface sirve para asignar un tipo  de variable al props... como string, number, boolean, etc . el "CardProps" también puede llamarse "Props", pero para no confundirme, prefiero llamarle CardProps.*/
 
+import { ReactNode } from "react";
+
 interface CardProps {
-    body : string
+    children : ReactNode;
 } 
 /* Dentro de la función card escribí return y pegué un código copiado de la página de bootstrap (después fue cortado y pegado al fragmento de más abajo). Por otro lado, el "props" que esstá entre paréntesis, es para exportar el "body" que está entre llaves. ¿a dónde se va a exportar? al archivo que sea que lo esté importando, en este caso App.ts, lo importa en las primeras líneas*/
 
-function Card(props : CardPropsProps) {
-    const {body} = props;
+function Card(props : CardProps) {
+    const {children} = props;
 
     return (
         <div className="card" style = {{width : '350px',}}> {/* sin doble llave no funciona */}
             <div className="card-body">
-                {body}
+                {children}
             </div>
         </div>
     );
