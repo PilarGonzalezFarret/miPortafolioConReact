@@ -8,7 +8,8 @@ function App() {
   const list = [
     "Goku", "Tangiro", "Bulma" 
   ];
-  return <Card><CardBody title="Hola Mundo!" text="Este es el texto."/>
+  return <Card>
+    <CardBody title="Hola Mundo!" text="Este es el texto."/>
     <List data={list}/>
   </Card>
 }
