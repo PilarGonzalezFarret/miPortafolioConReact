@@ -6,7 +6,7 @@ import List from "./components/List";
 
 function App() {
   const list = [
-    "Goku", "Tangiro", "Bulma" 
+    "Goku", "Tangiro", "Bulma", "Pilar" 
   ];
   return <Card>
     <CardBody title="Hola Mundo!" text="Este es el texto."/>
