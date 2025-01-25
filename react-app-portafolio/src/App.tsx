@@ -1,17 +1,20 @@
-/* Importaciones */
-import Card, {CardBody} from "./components/Card";
-import List from "./components/List";
-
-/* Todas las app, por convención, usan la función App, la que debe ser exportada por defecto */
+import './App.css';
+import { Routes, Route} from "react-router-dom";
+import About from './components/About';
+import Home from './components/Home';
+    
 
 function App() {
-  const list = [
-    "Goku", "Tangiro", "Bulma", "Pilar" 
-  ];
-  return <Card>
-    <CardBody title="Hola Mundo!" text="Este es el texto."/>
-    <List data={list}/>
-  </Card>
+  return (
+    <div>
+      <h1>Routing Example</h1>
+      <p>Holaaaa</p>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </div>
+  );
 }
-
-export default App; /* La experotación de la que se comentó en la primera línea */
+    
+export default App;
