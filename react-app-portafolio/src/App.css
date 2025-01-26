@@ -1,11 +1,4 @@
-* {
-  background-color: #f2e3d0;
-}
-
-.App {
-  text-align: center;
-}
-
-.navbar {
-  background-color: black;
+*:not(.navbar):not(.navbar *)  {
+  background-color: #e0e2e0;
+  color: #2d3644;
 }

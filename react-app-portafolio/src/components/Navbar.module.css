@@ -1,16 +1,21 @@
 .navbar {
-    background-color: #000;
-    color: #000; 
-    padding: 1rem; /* Espaciado interno */
+    background-color: #9f8551 !important; 
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
   }
   
   .nav-link {
-    color: #00bfff; /* Azul claro para los enlaces */
-    text-decoration: none;
-    margin: 0 1rem;
+margin: 0px 40px ;
   }
   
   .nav-link:hover {
     color: #ff4500;
   }
+
+.container-fluid {
+    width: 100%;
+    padding: 100px;
+}
+  
   
