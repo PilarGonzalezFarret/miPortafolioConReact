@@ -7,14 +7,15 @@ import Home from './components/Home';
 function App() {
   return (
     <div>
-      <h1>Routing Example</h1>
-      <p>Holaaaa</p>
-      <Router>
+      <h1>Pili's Portfolio!!</h1>
+      <h4>Hi!! I'm happy toshare my portfolio with you!!</h4>
+      <p>Please feel free to browse through this app to learn more about my work and other interests.</p>
+      
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
         </Routes>
-      </Router>
+      
     </div>
   );
 }
