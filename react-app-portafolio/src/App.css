@@ -1,8 +1,11 @@
-body {
-    background-color: #ede4df;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
+* {
+  background-color: #f2e3d0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+}

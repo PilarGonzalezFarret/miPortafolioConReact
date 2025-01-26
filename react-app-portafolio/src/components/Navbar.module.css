@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #000;
+    color: #000; 
+    padding: 1rem; /* Espaciado interno */
+  }
+  
+  .nav-link {
+    color: #00bfff; /* Azul claro para los enlaces */
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ff4500;
+  }
+  
