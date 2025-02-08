@@ -3,21 +3,22 @@ import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <div className={styles.navbar} >
-      <nav className="navbar navbar-expand-lg" >
-        <div className="container-fluid" >
+    <div className={styles.navbar}>
+      <nav className="navbar navbar-expand-lg navbar-dark">
+        <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <Link to="/" className="nav-link">
+              {/* Aplica navLinkCustom a TODOS los enlaces */}
+              <Link to="/" className={`nav-link ${styles.navLinkCustom}`}>
                 Home
               </Link>
-							<Link to="/about" className="nav-link" color="green">
-                About me
+              <Link to="/CheckOutMyWork" className={`nav-link ${styles.navLinkCustom}`}>
+              Check out my work
               </Link>
-              <Link to="/about" className="nav-link">
+              <Link to="/about" className={`nav-link ${styles.navLinkCustom}`}>
                 About this website
               </Link>
-              <Link to="/about" className="nav-link">
+              <Link to="/about" className={`nav-link ${styles.navLinkCustom}`}>
                 Contact me
               </Link>
             </div>

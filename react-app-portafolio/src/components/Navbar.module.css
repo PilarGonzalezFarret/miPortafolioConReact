@@ -1,21 +1,18 @@
 .navbar {
-    background-color: #9f8551 !important; 
-    padding: 0.5rem;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .nav-link {
-margin: 0px 40px ;
-  }
-  
-  .nav-link:hover {
-    color: #ff4500;
-  }
-
-.container-fluid {
-    width: 100%;
-    padding: 100px;
+  background-color: #0b0e1d !important; 
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
 }
-  
-  
+
+/* Clase personalizada para TODOS los enlaces */
+.navLinkCustom {
+  color: #81c5ee !important; /* ¡Agrega !important aquí */
+  margin: 0 40px;
+}
+
+/* Hover aplicado a tu clase personalizada */
+.navLinkCustom:hover {
+  color: #6899d7 !important;
+  font-weight: bold;
+}
