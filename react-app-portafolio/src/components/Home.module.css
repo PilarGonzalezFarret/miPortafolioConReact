@@ -1,5 +1,17 @@
 .home {
     display: block;
     text-align: center;
-    margin: 2rem 5rem;
+    justify-content: center;
+    margin: 5rem 10rem;
+    position: relative; /* Añade esto para que el z-index funcione */
+    z-index: 2; /* Asegura que el contenido esté por encima de las imágenes */
+
+}
+
+h5 {
+    z-index: 1; /* Esto no es necesario si el contenedor ya tiene z-index */
+}
+
+img {
+    width: 100px;
 }

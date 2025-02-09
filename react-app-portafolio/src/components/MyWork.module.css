@@ -1,0 +1,18 @@
+.upper-work {
+    background-color: #0b0e1d;
+    display: flex; /* Cambia a flex para centrar el contenido */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    padding: 2rem 0; /* Añade espacio interno */
+}
+
+.upper-work h2, .upper-work p {
+    text-align: center; /* Centra el texto */
+    margin: 0.5rem 0; /* Ajusta el margen entre el h2 y el p */
+    max-width: 600px; /* Limita el ancho del texto para que no se extienda demasiado */
+}
+
+img {
+    width: 100px;
+}

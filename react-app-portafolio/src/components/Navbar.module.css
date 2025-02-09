@@ -5,14 +5,14 @@
   justify-content: space-around;
 }
 
-/* Clase personalizada para TODOS los enlaces */
 .navLinkCustom {
-  color: #81c5ee !important; /* ¡Agrega !important aquí */
+  color: #81c5ee !important;
   margin: 0 40px;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Transición suave */
 }
 
-/* Hover aplicado a tu clase personalizada */
 .navLinkCustom:hover {
   color: #6899d7 !important;
-  font-weight: bold;
+  border-bottom: 1px solid #6899d7; /* Borde inferior al hacer hover */
+  transform: scale(1.05); /* Escala el texto ligeramente */
 }

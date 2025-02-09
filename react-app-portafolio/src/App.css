@@ -3,27 +3,25 @@
   color: #81c5ee;
 }
 
+.esquinas {
+  position: relative; /* Contenedor relativo para las imágenes absolutas */
+  z-index: 1; /* Asegura que el contenido esté por encima de las imágenes */
+}
+
 .decoPlantas-1, .decoPlantas-2 {
-  width: 250px;
+  width: 200px;
+  position: absolute; /* Saca las imágenes del flujo normal */
+  z-index: 0; /* Coloca las imágenes detrás del contenido */
+}
+
+.decoPlantas-1 {
+  top: 0; /* Posición en la esquina superior izquierda */
+  left: 0;
 }
 
 .decoPlantas-2 {
+  top: 0; /* Posición en la esquina superior derecha */
+  right: 0;
   transform: rotate(90deg);
+  z-index: -1;
 }
-
-.esquinas {
-  display: flex;
-  justify-content: space-between;
-}
-/* Colores
-#2c395e - oscuro
-#81c5ee - medio
-#5c8cb3 - medio
-#47688c
-#4c5b88
-#c3e3f7 - claro
-#6899d7
-#4a6da3
-#0b0e1d - oscuro
-#6e7aa1
-*/

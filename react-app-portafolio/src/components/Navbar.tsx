@@ -12,11 +12,11 @@ function Navbar() {
               <Link to="/" className={`nav-link ${styles.navLinkCustom}`}>
                 Home
               </Link>
-              <Link to="/CheckOutMyWork" className={`nav-link ${styles.navLinkCustom}`}>
-              Check out my work
+              <Link to="/MyWork" className={`nav-link ${styles.navLinkCustom}`}>
+             My work
               </Link>
               <Link to="/about" className={`nav-link ${styles.navLinkCustom}`}>
-                About this website
+                Skills
               </Link>
               <Link to="/about" className={`nav-link ${styles.navLinkCustom}`}>
                 Contact me

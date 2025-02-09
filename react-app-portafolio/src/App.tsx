@@ -1,8 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CheckOutMyWork from './components/CheckOutMyWork';
+import MyWork from './components/MyWork';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import Skills from './components/Skills';
     
 
 function App() {
@@ -13,11 +14,13 @@ function App() {
         <img src="/deco-plantas.png" alt="decoración con plantas" className='decoPlantas-1' />
         <img src="/deco-plantas.png" alt="decoración con plantas" className='decoPlantas-2' />
       </div>
-      <Routes>
-        <Route path="/CheckOutMyWork" element={<CheckOutMyWork />} />
+{/*       <Routes>
+        <Route path="/MyWork" element={<MyWork />} />
         <Route path="/" element={<Home />} />
-      </Routes>
-      
+      </Routes> */}
+      <Home/>
+      <MyWork/>
+      <Skills/>
     </div>
   );
 }
